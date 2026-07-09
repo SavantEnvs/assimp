@@ -1,0 +1,9 @@
+project: savantenvs/assimp
+target: assimp_fuzzer_gltf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/assimp_fuzzer_gltf/testsuite
+cmds:
+  - cmd: /mayhem/assimp_fuzzer_gltf
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/assimp_fuzzer.dict
