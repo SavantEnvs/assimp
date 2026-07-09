@@ -1,0 +1,6 @@
+project: savantenvs/assimp
+target: assimp_fuzzer
+cmds:
+  - cmd: /mayhem/assimp_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/assimp_fuzzer.dict
