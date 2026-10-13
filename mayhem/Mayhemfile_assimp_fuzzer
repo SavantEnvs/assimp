@@ -1,0 +1,7 @@
+# seed-from: https://app.mayhem.security/savantenvs/assimp/assimp-fuzzer
+project: savantenvs/assimp
+target: assimp_fuzzer-mined-28ebc84
+cmds:
+  - cmd: /mayhem/assimp_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/assimp_fuzzer.dict
