@@ -1,0 +1,5 @@
+project: savantenvs/assimp
+target: assimp_logstream_fuzzer-mined-28ebc84
+cmds:
+  - cmd: /mayhem/assimp_logstream_fuzzer
+    libfuzzer: true
